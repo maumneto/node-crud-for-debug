@@ -1,0 +1,52 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: first-letter;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: first-letter;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #ccc;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}   
+
+header nav ul li a {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: first-letter;
+}
+
+header nav ul li a:hover {
+    color: #ccc;
+}
+
+/* Path: public/css/style.css */
