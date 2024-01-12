@@ -8,12 +8,13 @@
 
             <div class="card-body">
                 <p><%= myevents[index].description %></p>
+                <img src="/public/assets/image-not-found.jpg" height="300px" width="300px" alt="image not image-not-founds">
             </div>
 
             <div class="card-footer">
-                <p><%= myevents[index].time %></p>
-                <p><%= myevents[index].location %></p>
-                <p><%= myevents[index].price %></p>
+                <p>Time: <%= myevents[index].time %> hour(s)</p>
+                <p>Location: <%= myevents[index].location %></p>
+                <p>$<%= myevents[index].price %></p>
             </div>
         </div>
     <% } %>

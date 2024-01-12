@@ -3,6 +3,7 @@
 @import url('header.css');  /* This is the only line that changed */
 @import url('footer.css');  /* This is the only line that changed */
 @import url('card.css');    /* This is the only line that changed */
+@import url('form.css');    /* This is the only line that changed */
 
 * {
   margin: 0;

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <title>UniSchedule</title>
+</head>
+<body>
+     <%- include('header') %>
+    <div class="container">
+        <form action="/newevent" method="post">
+            <div class="entry">
+                <label for="title">Title</label> <br>
+                <input type="text" name="title"/>
+            </div>
+
+            <div class="entry">
+                <label for="date">Date</label> <br>
+                <input type="date" name="date"/>
+            </div>
+
+            <div class="entry">
+                <label for="description">Description</label> <br>
+                <input type="text" name="description"/>
+            </div>
+
+            <div class="entry">
+                <label for="time">Time (hour)</label> <br>
+                <input type="number" name="time" min="0" max="4"/>
+            </div>
+
+            <div class="entry">
+                <label for="location">Location</label> <br>
+                <input type="text" name="location"/>
+            </div>
+
+            <div class="entry">
+                <label for="price">Price (dollar)</label> <br>
+                <input type="number" name="price" min="0" max="300"/>
+            </div>
+
+            <input type="submit" value="Create Event"/>
+        </form>
+    </div>
+    <%- include('footer') %>
+</body>
+</html>
